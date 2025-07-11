@@ -2,25 +2,23 @@ body {
     font-family: sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #F8F8FA; /* Consistent background color */
+    background-color: #F8F8FA; 
 }
 
-/* Sections with specific background color */
 .action-section,
 .productive-users-section,
 .reviews-section,
-.focus-section { /* Changed to match the new background of .focus-section */
-    background-color: #e5e5f6; /* Specific background color for these sections */
-    padding: 80px 0; /* Adjusted padding to allow content wrapper to control horizontal space */
+.focus-section { 
+    background-color: #e5e5f6;
+    padding: 80px 0; 
     text-align: center;
 }
 
-/* Common wrapper for consistent content width */
 .section-content-wrapper {
-    max-width: 960px; /* Consistent maximum width for content */
-    margin: 0 auto; /* Center the content wrapper */
-    padding: 0 20px; /* Horizontal padding inside the wrapper */
-    box-sizing: border-box; /* Include padding in the width calculation */
+    max-width: 960px; 
+    margin: 0 auto; 
+    padding: 0 20px; 
+    box-sizing: border-box; 
 }
 
 /* 1st section */
@@ -39,7 +37,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1200px; /* This header can be wider than main content */
+    max-width: 1200px; 
     margin: 0 auto;
     padding: 0 20px;
     margin-bottom: 80px;
@@ -78,8 +76,8 @@ body {
     cursor: pointer;
 }
 
-/* 2nd section (Action Section) */
-.action-section { /* Maintain flex on section for layout */
+/* 2nd section */
+.action-section { 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -88,7 +86,7 @@ body {
 
 .action-content {
     text-align: left;
-    max-width: 500px; /* Keep existing max-width for internal content */
+    max-width: 500px; 
 }
 
 .action-content h2 {
@@ -115,13 +113,13 @@ body {
 }
 
 .action-image img {
-    max-width: 500px; /* Consistent box width for image */
+    max-width: 500px; 
     height: auto;
     border-radius: 15px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 
-/* 3rd section (Productive Users Section) */
+/* 3rd section */
 .productive-users-section h2 {
     font-size: 36px;
     color: #333;
@@ -132,7 +130,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 80px;
-    max-width: 960px; /* Adjusted to 960px for consistency */
+    max-width: 960px; 
     margin: 0 auto;
     background-color: white;
     padding: 40px;
@@ -160,7 +158,7 @@ body {
     color: #666;
 }
 
-/* 4th section (Reviews Section) */
+/* 4th section */
 .reviews-section h2 {
     font-size: 36px;
     color: #333;
@@ -172,7 +170,7 @@ body {
     justify-content: center;
     gap: 30px;
     flex-wrap: wrap;
-    max-width: 960px; /* Adjusted to 960px for consistency */
+    max-width: 960px;
     margin: 0 auto;
 }
 
@@ -180,7 +178,7 @@ body {
     background-color: white;
     border-radius: 10px;
     padding: 30px;
-    width: calc(33.33% - 20px); /* Adjust width to fit 3 cards with gaps in 960px container */
+    width: calc(33.33% - 20px); 
     min-width: 280px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
     text-align: left;
@@ -241,9 +239,9 @@ body {
     color: #999;
 }
 
-/* 5th Section (Focus Section) */
+/* 5th Section */
 .focus-section {
-    background-color: #e5e5f6; /* Changed background color to match other sections */
+    background-color: #e5e5f6; 
     padding: 80px 0;
     text-align: center;
 }
@@ -271,36 +269,51 @@ body {
     transition: background-color 0.3s ease;
 }
 
-.get-started-btn:hover {
+.get-started-btn:hover{
+    background-color: #4A39CB;
+}
+.sign-up-btn:hover{
+    background-color: #4A39CB;
+}
+.stay-focused-btn:hover{
+    background-color: #4A39CB;
+}
+.live-preview-btn:hover{
+    background-color: #4A39CB;
+}
+.get-started-btn:hover{
+    background-color: #4A39CB;
+}
+.submit-btn:hover{
     background-color: #4A39CB;
 }
 
 .focus-image {
     margin-top: 40px;
-    max-width: 960px; /* Adjusted to 960px for consistency */
+    max-width: 960px; 
     margin-left: auto;
     margin-right: auto;
-    background-color: white; /* Explicitly set background for the box */
-    padding: 20px; /* Padding inside the box */
-    border-radius: 15px; /* Rounded corners */
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05); /* Added box shadow */
-    box-sizing: border-box; /* Ensures padding is included in the max-width */
+    background-color: white; 
+    padding: 20px; 
+    border-radius: 15px; 
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    box-sizing: border-box; 
 }
 
 .focus-image img {
     max-width: 100%;
     height: auto;
-    border-radius: 10px; /* Keep image inside slightly rounded */
+    border-radius: 10px; 
     display: block;
 }
 
-/* 6th section (Contact Section) */
+/* 6th section  */
 .contact-section {
-    background-color: #e5e5f6; /* Ensure background matches other sections */
-    padding: 80px 0; /* Consistent padding */
+    background-color: #e5e5f6;
+    padding: 80px 0;
     display: flex;
     justify-content: center;
-    align-items: center; /* Changed to center for vertical alignment */
+    align-items: center; 
     gap: 100px;
 }
 
@@ -367,7 +380,7 @@ body {
     margin-top: 20px;
 }
 
-/* 7th section (Footer) */
+/* 7th section */
 .footer-section {
     background-color: #F8F8FA;
     padding: 80px 0;
