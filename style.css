@@ -21,7 +21,7 @@ body {
     box-sizing: border-box; 
 }
 
-/* 1st section */
+/* 1st section Heder*/
 .banner-section {
     background-image: url('images/Hero-bg.png');
     background-size: cover;
@@ -380,7 +380,7 @@ body {
     margin-top: 20px;
 }
 
-/* 7th section */
+/* 7th section footer*/
 .footer-section {
     background-color: #F8F8FA;
     padding: 80px 0;
